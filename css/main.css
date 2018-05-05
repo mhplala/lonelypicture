@@ -1,0 +1,142 @@
+body{
+  margin: 0；auto;
+  -webkit-font-smoothing: antialiased;
+  font-family:avenir,lato, pingfang sc,microsoft-yahei;
+}
+
+footer{
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 960px){
+
+nav{
+  left:0;
+  top:0;
+  position:fixed;
+  width: 100%;
+  height: 23px;
+  background: rgba(255,255,255,0.9);
+  padding: 12px;
+  border-bottom: 1px solid #f4f4f4;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.navcontainer{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo{
+  float: left;
+  width:140px;
+}
+
+.container{
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 90%;
+}
+
+.statement{
+  width: 100%;
+  padding: 30px 0px 30px 0px;
+  background-color: #fafafa;
+  color:#aaa;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+.feed{
+  width: 100%;
+}
+
+.pic{
+  margin: 40px 0 15px 0;
+}
+
+.pic img{
+  width: 100%;
+  border-radius: 20px;
+  transition: ease 1s;
+}
+
+.discription{
+  text-align: center;
+  color:#aaa;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+}
+
+@media screen and (min-width: 960px) {
+
+
+  nav{
+    left:0;
+    top:0;
+    position:fixed;
+    width: 100%;
+    height: 25px;
+    background: rgba(255,255,255,0.85);
+    padding: 20px 20px 20px 6px;
+    border-bottom: 1px solid #f4f4f4;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+  }
+
+
+  .navcontainer{
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .logo{
+    float: left;
+    width:160px;
+  }
+  .statement{
+    margin: 0 auto;
+    width: 40%;
+    padding: 30px 0px 30px 0px;
+    background-color: #fafafa;
+    color:#111;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: -110px;
+    border-radius: 10px;
+  }
+
+  .container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 70%;
+  }
+
+  .feed{
+    width: 100%;
+  }
+
+  .pic{
+    margin: 150px 0 30px 0;
+  }
+
+  .pic img{
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .discription{
+    text-align: center;
+    color:#aaa;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  }
